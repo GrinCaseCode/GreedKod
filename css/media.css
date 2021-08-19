@@ -488,6 +488,14 @@ body {
     .sidebar-block__title {
         margin-top: 20px;
     }
+    .quiz__buttons { 
+        padding-top: 10px;
+        flex-direction: column-reverse;
+    }
+    .quiz__buttons .btn-main {
+        margin-top: 10px;
+        margin-right: 0;
+    }
 }
 
 /* Extra Small Devices, Phones */
