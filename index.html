@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header default">
+			<div class="container">
+				<div class="header__wrap">
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<ul class="menu">
+						<li class="menu__haschild">
+							<a href="#">Магазины и сервисы</a>
+							<ul>
+								<li><a href="#">Магазин 1</a></li>
+								<li><a href="#">Магазин 2</a></li>
+								<li><a href="#">Магазин 3</a></li>
+								<li><a href="#">Магазин 4</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">Категории</a>
+							<ul>
+								<li><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 1</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Топ-50</a></li>
+						<li class="menu__hot"><a href="#">Горячие товары</a></li>
+						<li class="menu__best"><a href="#">Лучшие обзоры</a></li>
+					</ul>
+					<a href="#" class="btn-main btn-main_tg"><span class="btn-main__icon"><img src="img/ic_tg.svg" alt="alt"></span>Наш телеграм канал</a>
+					<form>
+						<div class="search-wrap">
+							<input type="text" placeholder="Найти магазин" required="required">
+							<button class="btn-search"></button>
+						</div>
+					</form>
+					<div class="authrizations-links">
+						<a href="#">Вход/Регистрация <span class="authrizations-links__icon"></span></a>
+					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<div class="content">
+			<div class="container">
+				<div class="content__wrap">
+					<div class="content__left">
+						<div class="review-block">
+							<div class="review-block__image">
+								<img src="img/reviews_image1.jpg" alt="alt">
+							</div>
+							<div class="review-block__content">
+								<div class="review-block__head">
+									<ul class="rating rating_5">
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									</ul>
+									<div>Оцените озон</div>
+									<div>5/5 <a href="#">170 голосов</a></div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<p>Сonsectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+							</div>
+						</div>
+						<div class="sidebar-block">
+							<div class="title-min">Как получить скидку</div>
+							<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="video-block fancybox fancybox.iframe">
+								<img src="img/video1.jpg" alt="alt">
+							</a>
+						</div>
+						<div class="sidebar-block sidebar-block__main">
+							<div class="sidebar-catalog">
+								<ul>
+									<li><a href="#"><img src="img/catalog-1.svg" alt="alt"> <span>Одежда обувь<span>(15)</span></span></a></li>
+									<li><a href="#"><img src="img/catalog-2.svg" alt="alt"> <span>Электроника и бытовая техника <span> (25)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-3.svg" alt="alt"> <span>Товары для дома <span>(29)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-4.svg" alt="alt"> <span>Детские товары <span>(26)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-5.svg" alt="alt"> <span>Красота и здоровье <span>(27)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-6.svg" alt="alt"> <span>Цветы и подарки <span>(28)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-7.svg" alt="alt"> <span>Спорт и отдых <span> (390)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-8.svg" alt="alt"> <span>Еда и напитки <span>(1509)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-9.svg" alt="alt"> <span>Книги, фильмы, интернет <span>(229)</span></span></a></li>
+									<li><a href="#"> <img src="img/catalog-10.svg" alt="alt"> <span>Путешествие и Туризм <span>(344)</span></span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="buttons-sidebar">
+							<a href="#" class="btn-sidebar">Перейти на МТС <img src="img/ic_reply.svg" alt="alt"></a>
+							<div class="dropdown-sidebar">
+								<div class="btn-sidebar">Где вводить промокод? <img src="img/arrow_circle.svg" alt="alt"></div>
+								<div class="dropdown-sidebar__content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur ducimus error necessitatibus possimus praesentium quidem quis ratione sapiente veritatis. Aliquid, beatae culpa enim est itaque numquam sapiente sint sit?</p>
+								</div>
+							</div>
+							<div class="dropdown-sidebar">
+								<div class="btn-sidebar">Информация о магазине <img src="img/arrow_circle.svg" alt="alt"></div>
+								<div class="dropdown-sidebar__content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur ducimus error necessitatibus possimus praesentium quidem quis ratione sapiente veritatis. Aliquid, beatae culpa enim est itaque numquam sapiente sint sit?</p>
+								</div>
+							</div>
+						</div>
+						<div class="sidebar-block sidebar-block_contacts sidebar-block__main">
+							<div class="sidebar-block__title"><img src="img/ic_sidebar1.svg" alt="alt">Контакты ОЗОН:</div>
+							<p>ООО ”Интернет решения”</p>
+							<p>+7 495 730 67 67</p>
+							<p><a href="mailto:help@ozone.ru">help@ozone.ru</a></p>
+							<ul class="social-min">
+								<li><a href="#"><img src="img/soc_min1.svg" alt="alt"></a></li>
+								<li><a href="#"><img src="img/soc_min2.svg" alt="alt"></a></li>
+								<li><a href="#"><img src="img/soc_min3.svg" alt="alt"></a></li>
+								<li><a href="#"><img src="img/soc_min4.svg" alt="alt"></a></li>
+							</ul>
+							<div class="sidebar-block__title"><img src="img/ic_sidebar2.svg" alt="alt">оплата в ОЗОН:</div>
+							<ul>
+								<li>Наличными</li>
+								<li>Банковской картой онлайн и при получении</li>
+								<li>Apple Pay</li>
+								<li>Электронными деньгами</li>
+								<li>Банковским переводом</li>
+								<li>Подарочным сертификатом</li>
+								<li>Пользовательский счет</li>
+							</ul>
+							<div class="sidebar-block__title"><img src="img/ic_sidebar3.svg" alt="alt">Доставка возможна:</div>
+							<ul>
+								<li>В пункты выдачи</li>
+								<li>Курьерская доставка</li>
+								<li>Самовывоз</li>
+								<li>Почта Россиии</li>
+							</ul>
+							<div class="sidebar-block__title"><img src="img/ic_sidebar4.svg" alt="alt">Возврат:</div>
+							<ul>
+								<li>Для товаров, которые продает ozon.ru в течении 60 дней.</li>
+								<li>Для товаров, которые продает ozon.ru в течении 60 дней.</li>
+								<li>Для товаров, которые продает ozon.ru в течении 60 дней.</li>
+							</ul>
+						</div>
+						<div class="sidebar-block">
+							<div class="title-min">Похожие магазины:</div>
+							<ul class="list-stores">
+								<li>
+									<a href="#">Aliexpres <span>(15)</span><span class="list-stores__image"><img src="img/ali.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Amazon<span>(25)</span><span class="list-stores__image"><img src="img/amazon.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Ebay<span>(15)</span><span class="list-stores__image"><img src="img/ebay.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Aliexpres<span>(15)</span><span class="list-stores__image"><img src="img/ali.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Amazon<span>(25)</span><span class="list-stores__image"><img src="img/amazon.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Ebay<span>(15)</span><span class="list-stores__image"><img src="img/ebay.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Ebay<span>(15)</span><span class="list-stores__image"><img src="img/ebay.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Aliexpres<span>(15)</span><span class="list-stores__image"><img src="img/ali.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Aliexpres <span class="list-stores__image"><img src="img/ali.png" alt="alt"></span></a>
+								</li>
+								<li>
+									<a href="#">Amazon<span>(25)</span><span class="list-stores__image"><img src="img/amazon.png" alt="alt"></span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content__right">
+						<div class="head-page">
+							<div class="head-page__left">
+								<div class="head-page__title">Актуальные промокоды ОЗОН</div>
+								<div class="head-page__value">-35%</div>
+								<div class="head-page__date">Обновлено сегодня 25.05.2021</div>
+							</div>
+							<div class="user-unit">
+								<div class="user-unit__left">
+									<div class="user-unit__image">
+										<img src="img/user1.jpg" alt="alt">
+									</div>
+									<div class="user-unit__socials">
+										<a href="#" class="user-unit__social">
+											<img src="img/ic_soc1.svg" alt="alt">
+										</a>
+										<a href="#" class="user-unit__social">
+											<img src="img/ic_soc2.svg" alt="alt">
+										</a>
+									</div>
+								</div>
+								<div class="user-unit__right">
+									<div class="user-unit__name">Ру слан Кабаев</div>
+									<div class="user-unit__date">Обновлено 08.07.21</div>
+								</div>
+							</div>
+						</div>
+						<div class="head-products">
+							<ul class="tabs">
+								<li class="active"><a href="#tab1">Все</a></li>
+								<li><a href="#tab2">Скидка</a></li>
+								<li><a href="#tab3">Купон</a></li>
+								<li><a href="#tab4">Подарок</a></li>
+							</ul>
+							<div class="head-products__right">
+								<div class="item-checkbox">
+									<label>
+										<input type="checkbox" checked="checked" />
+										<span>Все товары</span>
+									</label>
+								</div>
+								<div class="item-select">
+									<select>
+										<option value="1">Сортировать по  рейтингу</option>
+										<option value="1">Сортировать по  цене</option>
+										<option value="1">Сортировать по  популярности</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="item-product">
+							<div class="item-product__content">
+								<div class="status-product">НОВИНКА</div>
+								<div class="item-product__head">
+									<div class="item-product__price">2800 руб.</div>
+									<div class="item-product__time">Промокод истекает через 11 дней</div>
+								</div>
+								<div class="item-product__title">Скидка 2800 руб. на смартфон Honor 30S</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_key.svg" alt="alt"></span>Открыть промокод</a>
+								<div class="item-product__amount">Использовали 18 человек</div>
+							</div>
+							<div class="item-product__image">
+								<img src="img/prod1.jpg" alt="alt">
+							</div>
+						</div>
+						<div class="item-product">
+							<div class="item-product__content">
+								<div class="status-product status-product_green">популярное</div>
+								<div class="item-product__head">
+									<div class="item-product__price">2800 руб.</div>
+									<div class="item-product__time">Промокод истекает через 11 дней</div>
+								</div>
+								<div class="item-product__title">Скидка 2800 руб. на смартфон Honor 30S</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_key.svg" alt="alt"></span>Открыть предложение</a>
+								<div class="item-product__amount">Использовали 18 человек</div>
+							</div>
+							<div class="item-product__image">
+								<img src="img/prod2.jpg" alt="alt">
+							</div>
+						</div>
+						<div class="offers-wrap">
+							<div class="head-offers">
+								<div class="head-offers__times">Срок действия истек, попробуйте, возможно коды сработают</div>
+								<div class="head-offers__features">
+									<div class="head-offers__feature"><img src="img/offer_feature1.svg" alt="alt">11</div>
+									<div class="head-offers__feature"><img src="img/offer_feature2.svg" alt="alt">100%</div>
+									<div class="head-offers__feature"><img src="img/offer_feature3.svg" alt="alt">11 дней</div>
+								</div>
+							</div>
+							<div class="item-offer item-offer_sale">
+								<div class="item-offer__left">
+									<div class="item-offer__value"><strong>-85% </strong>Распродажа</div>
+									<div class="item-offer__title">Скидки до 85% на мужскую косметику, парфюмерию и технику для красоты и здоровья</div>
+									<div class="item-offer__bottom">
+										<div class="item-offer__feature"><img src="img/ic_offer1.svg" alt="alt">Акция завершена </div>
+										<div class="item-offer__feature"><img src="img/ic_offer2.svg" alt="alt">Применена 300 раз</div>
+										<div class="item-offer__feature"><img src="img/ic_offer3.svg" alt="alt">+2</div>
+									</div>
+								</div>
+								<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_key2.svg" alt="alt"></span>Воспользоваться </a>
+							</div>
+							<div class="item-offer item-offer_promotion">
+								<div class="item-offer__left">
+									<div class="item-offer__value"><strong>-80% </strong>акция</div>
+									<div class="item-offer__title">Скидки до 80% на мужскую косметику, парфюмерию и технику для красоты и здоровья</div>
+									<div class="item-offer__bottom">
+										<div class="item-offer__feature"><img src="img/ic_offer1.svg" alt="alt">Акция завершена </div>
+										<div class="item-offer__feature"><img src="img/ic_offer2.svg" alt="alt">Применена 300 раз</div>
+										<div class="item-offer__feature"><img src="img/ic_offer3.svg" alt="alt">+2</div>
+									</div>
+								</div>
+								<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_key.svg" alt="alt"></span>Воспользоваться </a>
+							</div>
+							<div class="item-offer item-offer_promocode">
+								<div class="item-offer__left">
+									<div class="item-offer__value"><strong>-15% </strong>промокод</div>
+									<div class="item-offer__title">Скидки до 80% на мужскую косметику, парфюмерию и технику для красоты и здоровья</div>
+									<div class="item-offer__bottom">
+										<div class="item-offer__feature"><img src="img/ic_offer1.svg" alt="alt">Акция завершена </div>
+										<div class="item-offer__feature"><img src="img/ic_offer2.svg" alt="alt">Применена 300 раз</div>
+										<div class="item-offer__feature"><img src="img/ic_offer3.svg" alt="alt">+2</div>
+										<div class="item-offer__feature"><img src="img/ic_offer3.svg" alt="alt">сработал у 30%</div>
+									</div>
+								</div>
+								<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_key3.svg" alt="alt"></span>Воспользоваться </a>
+							</div>
+							<div class="item-offer item-offer_discount">
+								<div class="item-offer__left">
+									<div class="item-offer__value"><strong>-80% </strong>скидка</div>
+									<div class="item-offer__title">Скидки до 85% на мужскую косметику, парфюмерию и технику для красоты и здоровья</div>
+									<div class="item-offer__bottom">
+										<div class="item-offer__feature"><img src="img/ic_offer1.svg" alt="alt">Акция завершена </div>
+										<div class="item-offer__feature"><img src="img/ic_offer2.svg" alt="alt">Применена 300 раз</div>
+										<div class="item-offer__feature"><img src="img/ic_offer3.svg" alt="alt">+2</div>
+									</div>
+								</div>
+								<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_key4.svg" alt="alt"></span>Воспользоваться </a>
+							</div>
+						</div>
+						<div class="subscribe-block">
+							<div class="subscribe-block__title">Хотите первым узнавать о скидках в Яндекс Маркет?</div>
+							<div class="subscribe-block__descr">Введите ваш e-mail</div>
+							<form>
+								<div class="form-subscribe">
+									<input type="email" required="required">
+									<button class="btn-subscribe"></button>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" checked="checked" required="required" />
+										<span>Я соглашаюсь с правилами сайта и даю согласие на обработку моих персональных данных</span>
+									</label>
+								</div>
+							</form>
+						</div>
+						<div class="title-section title-section_page">Похожие промокоды и купоны</div>
+						<div class="row row_coupons">
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promotion">
+									<div class="item-coupon__image">
+										<img src="img/coupon1.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% акция</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promocod">
+									<div class="item-coupon__image">
+										<img src="img/coupon2.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% промокод</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_sale">
+									<div class="item-coupon__image">
+										<img src="img/coupon3.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% распродажа</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_discount">
+									<div class="item-coupon__image">
+										<img src="img/coupon4.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% скидка</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_sale">
+									<div class="item-coupon__image">
+										<img src="img/coupon5.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% распродажа</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promotion">
+									<div class="item-coupon__image">
+										<img src="img/coupon6.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% акция</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promocod">
+									<div class="item-coupon__image">
+										<img src="img/coupon7.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% акция</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promotion">
+									<div class="item-coupon__image">
+										<img src="img/coupon8.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% акция</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+						</div>
+						<div class="title-section title-section_page">Отзывы об акциях и покупках в ОЗОН</div>
+						<div class="row row_reviews">
+							<div class="col-lg-6">
+								<div class="item-review">
+									<div class="item-review__head">
+										<div class="item-review__image">
+											<img src="img/review1.jpg" alt="alt">
+										</div>
+										<div class="item-review__info">
+											<div class="item-review__name">Дмитрий <br>усачев</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="item-review__date">22.02.2021</div>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-review">
+									<div class="item-review__head">
+										<div class="item-review__image">
+											<img src="img/review2.jpg" alt="alt">
+										</div>
+										<div class="item-review__info">
+											<div class="item-review__name">Ирина <br>горбачева</div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="item-review__date">22.02.2021</div>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla.</p>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="btn-main btn-main_page">Все отзывы</a>
+						<div class="title-section title-section_page">Ответы на популярные вопросы</div>
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="item-question active">
+									<div class="item-question__head">Как это работает? <div class="item-question__arrow"></div></div>
+									<div class="item-question__content" style="display: block;">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									</div>
+								</div>
+								<div class="item-question">
+									<div class="item-question__head">почему это удобно? <div class="item-question__arrow"></div></div>
+									<div class="item-question__content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									</div>
+								</div>
+								<div class="item-question">
+									<div class="item-question__head">с чего стоит начать? <div class="item-question__arrow"></div></div>
+									<div class="item-question__content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-5">
+								<div class="subscribe-block subscribe-block_page">
+									<div class="subscribe-block__title">Подпишись на секретные коды</div>
+									<div class="subscribe-block__descr">E-mail / телефон</div>
+									<form>
+										<div class="form-subscribe">
+											<input type="text" required="required">
+											<button class="btn-subscribe"></button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="quiz">
+							<div class="title-section">Онлайн подбор лучшей акции</div>
+							<div class="descr-section">Заполните вопросы для подбора лучшей скидки</div>
+							<div class="quiz-progressbar">
+								<span class="quiz-progressbar__value"></span>
+							</div>
+							<div class="tab-container-quiz">
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку?</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main btn-main_next">Следующий шаг</button>
+									</div>
+								</div>
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку? 2</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main btn-main_prev">Предыдущий шаг</button>
+										<button class="btn-main btn-main_next">Следующий шаг</button>
+									</div>
+								</div>
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку? 3</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main btn-main_prev">Предыдущий шаг</button>
+										<button class="btn-main btn-main_next">Следующий шаг</button>
+									</div>
+								</div>
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку? 4</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main">Отправить</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="title-section title-section_page">Топ 5 советов по выбору промокода</div>
+						<div class="row row_advices">
+							<div class="col-lg-6">
+								<div class="item-advice">
+									<div class="item-advice__icon">
+										<img src="img/ic_advice1.svg" alt="alt">
+									</div>
+									<div class="item-advice__title">Установка мобильного приложения OZON</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-advice">
+									<div class="item-advice__icon">
+										<img src="img/ic_advice2.svg" alt="alt">
+									</div>
+									<div class="item-advice__title">Отслеживание распродаж и акций</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="item-advice item-advice_special">
+									<div class="item-advice__icon">
+										<img src="img/ic_advice_special.svg" alt="alt">
+									</div>
+									<div class="item-advice__title">Отслеживание распродаж и акций</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-advice">
+									<div class="item-advice__icon">
+										<img src="img/ic_advice3.svg" alt="alt">
+									</div>
+									<div class="item-advice__title">Приобретение статуса OZON PREMIUM</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="item-advice">
+									<div class="item-advice__icon">
+										<img src="img/ic_advice4.svg" alt="alt">
+									</div>
+									<div class="item-advice__title">Оплата покупок картой OZON CARD</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrap">
+					<a href="#" class="logo">
+						<img src="img/logo2.svg" alt="alt">
+					</a>
+					<ul class="footer-nav">
+						<li><a href="#">Private Policy</a></li>
+						<li><a href="#">Cookie Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+					<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_tg.svg" alt="alt"></span>Наш телеграм канал</a>
+				</div>
+				<div class="copyright">© 2021 Call Recorder for iPhone, Inc</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
