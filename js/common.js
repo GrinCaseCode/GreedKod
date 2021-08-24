@@ -93,11 +93,123 @@ $(".menu *:not('.menu__haschild') a").click(function() {
 		slidesToScroll: 1
 	});
 
+
+ $('.slider-for').slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        touchThreshold: 1000,
+        prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+        infinite: true,
+    });
+
+    $('.slider-nav').slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        touchThreshold: 1000,
+        prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+        infinite: true,
+        focusOnSelect: true,
+    });
+
+    var myCircle = Circles.create({
+    id:                  'circle-1',
+    radius:              120,
+    value:               77,
+    maxValue:            100,
+    width:               40 ,
+    text:                function(value){return value + '%';},
+    colors:              ['#F6FBFC', '#9C71EB'],
+    duration:            400,
+    wrpClass:            'circles-wrp',
+    textClass:           'circles-text',
+    valueStrokeClass:    'circles-valueStroke',
+    maxValueStrokeClass: 'circles-maxValueStroke',
+    styleWrapper:        true,
+    styleText:           true,
+});
+
+
+var myCircle = Circles.create({
+    id:                  'circle-2',
+    radius:              120,
+    value:               77,
+    maxValue:            100,
+    width:               40,
+    text:                function(value){return value + '%';},
+    colors:              ['#F6FBFC', '#9C71EB'],
+    duration:            400,
+    wrpClass:            'circles-wrp',
+    textClass:           'circles-text',
+    valueStrokeClass:    'circles-valueStroke',
+    maxValueStrokeClass: 'circles-maxValueStroke',
+    styleWrapper:        true,
+    styleText:           true,
+});
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-container").find(".tab-pane").hide();
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	});
+
+	$('.rating_click li:nth-child(1)').click(function() {
+		$(this).parent().addClass("rating_1");
+		$(this).parent().removeClass("rating_2");
+		$(this).parent().removeClass("rating_3");
+		$(this).parent().removeClass("rating_4");
+		$(this).parent().removeClass("rating_5");
+	});
+	$('.rating_click li:nth-child(2)').click(function() {
+		$(this).parent().addClass("rating_2");
+		$(this).parent().removeClass("rating_1");
+		$(this).parent().removeClass("rating_3");
+		$(this).parent().removeClass("rating_4");
+		$(this).parent().removeClass("rating_5");
+	});
+	$('.rating_click li:nth-child(3)').click(function() {
+		$(this).parent().addClass("rating_3");
+		$(this).parent().removeClass("rating_2");
+		$(this).parent().removeClass("rating_1");
+		$(this).parent().removeClass("rating_4");
+		$(this).parent().removeClass("rating_5");
+	});
+	$('.rating_click li:nth-child(4)').click(function() {
+		$(this).parent().addClass("rating_4");
+		$(this).parent().removeClass("rating_2");
+		$(this).parent().removeClass("rating_3");
+		$(this).parent().removeClass("rating_1");
+		$(this).parent().removeClass("rating_5");
+	});
+	$('.rating_click li:nth-child(5)').click(function() {
+		$(this).parent().addClass("rating_5");
+		$(this).parent().removeClass("rating_2");
+		$(this).parent().removeClass("rating_3");
+		$(this).parent().removeClass("rating_4");
+		$(this).parent().removeClass("rating_1");
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
 	 // стайлер для select
 	 $('select').styler();
+
+	 $('.item-unit').jScrollPane(
+        {
+            showArrows: true,
+            autoReinitialise: true
+        }
+    );
 
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
