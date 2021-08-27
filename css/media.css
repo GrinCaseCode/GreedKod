@@ -21,7 +21,7 @@
 }
 .evaluation {
     margin-right: 10px;
-}
+} 
 .brand-item__text {
     margin-right: 10px;
 }
@@ -865,6 +865,56 @@
     .reviews-form {
         padding: 40px 20px;
     }
+        .fancybox-type-iframe .fancybox-inner {
+    height: auto !important;
+}
+    .fancybox-type-iframe iframe{
+  width: calc(100vw - 40px);
+  height: calc(100vw/1.77);
+}
+.top-phones__head {
+    display: none;
+}
+.item-unit__content {
+    padding: 18px 15px;
+    display: block;
+}
+.item-unit__advantages {
+    max-width: 100%;
+    width: 100%;
+}
+.jspVerticalBar {
+    display: none !important;
+}
+.item-unit__prices {
+    padding: 15px 0;
+    width: 100%;
+}
+.item-unit__results {
+    display: block;
+    padding: 0;
+}
+.item-unit__head {
+    margin-bottom: 0px;
+}
+.item-unit__filter .rating {
+    margin: 0 10px;
+}
+.rating-result {
+    padding-top: 0;
+}
+.item-unit__filter {
+    margin-right: 0;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.jspHorizontalBar .jspArrow {
+    display: none;
+}
+.jspPane {
+    position: static !important;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1064,6 +1114,33 @@
     .checkbox_form {
         margin-bottom: 20px;
     }
+.item-unit__image {
+    width: 123px;
+    height: 123px;
+    margin-right: 6px;
+}
+.item-unit__justice {
+    top: -9px;
+    right: 3px;
+}
+.item-unit__title {
+    font-size: 13px;
+    max-width: 140px;
+}
+.rating-percent {
+    font-size: 18px;
+    padding: 4px 14px;
+    padding-left: 40px;
+}
+.item-unit__dropdown-title {
+    font-size: 13px;
+}
+.row_coupons + .title-section_page {
+    padding-top: 20px;
+}
+.reviews-form {
+    margin-top: 30px;
+}
 }
 
 /* Custom, iPhone Retina */

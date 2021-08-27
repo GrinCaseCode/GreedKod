@@ -31,7 +31,7 @@ body {
 	color: #2F3144;
 	margin: 0; 
 	background: #F6FBFC;
-}
+} 
 button {  
 	cursor: pointer; 
 }
@@ -3807,4 +3807,7 @@ select {
 }
 .item-unit__justice.active::after {
 	opacity: 1;
+}
+.fancybox-skin {
+	padding: 0 !important;
 }
