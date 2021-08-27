@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/jScrollPane-master/style/jquery.jscrollpane.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.5" />
+	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+</head>
+<body>
+
+	<div class="wrapper"> 
+
+		<header class="header default"> 
+			<div class="container">
+				<div class="header__wrap">
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<ul class="menu">
+						<li class="menu__haschild">
+							<a href="#">Магазины и сервисы</a>
+							<ul>
+								<li><a href="#">Магазин 1</a></li>
+								<li><a href="#">Магазин 2</a></li>
+								<li><a href="#">Магазин 3</a></li>
+								<li><a href="#">Магазин 4</a></li>
+							</ul>
+						</li>
+						<li class="menu__haschild">
+							<a href="#">Категории</a>
+							<ul>
+								<li><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 1</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Топ-50</a></li>
+						<li class="menu__hot"><a href="#">Горячие товары</a></li>
+						<li class="menu__best"><a href="#">Лучшие обзоры</a></li>
+					</ul>
+					<a href="#" class="btn-main btn-main_tg"><span class="btn-main__icon"><img src="img/ic_tg.svg" alt="alt"></span>Наш телеграм канал</a>
+					<form>
+						<div class="search-wrap">
+							<input type="text" placeholder="Найти магазин" required="required">
+							<button class="btn-search"></button>
+						</div>
+					</form>
+					<div class="authrizations-links">
+						<a href="#">Вход/Регистрация <span class="authrizations-links__icon"></span></a>
+					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<div class="content">
+			<div class="container">
+				<div class="head-page">
+					<div class="head-page__text">
+						<div class="title-page">Лучшие Android телефоны в 2021 году</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+					</div>
+					<div class="user-unit">
+						<div class="user-unit__left">
+							<div class="user-unit__image">
+								<img src="img/user1.jpg" alt="alt">
+							</div>
+							<div class="user-unit__image">
+								<img src="img/user2.jpg" alt="alt">
+							</div>
+							<div class="user-unit__socials">
+								<a href="#" class="user-unit__social">
+									<img src="img/ic_soc1.svg" alt="alt">
+								</a>
+								<a href="#" class="user-unit__social">
+									<img src="img/ic_soc2.svg" alt="alt">
+								</a>
+							</div>
+						</div>
+						<div class="user-unit__right">
+							<div class="user-unit__name">Саша Дмитрук и Джесика Стил</div>
+							<div class="user-unit__date">Обновлено 08.07.21</div>
+						</div>
+					</div>
+				</div>
+				<div class="head-filters">
+					<ul class="tabs">
+						<li class="active"><a href="#">Топ телефонов</a></li>
+						<li><a href="#">Топ 5G телефоны</a></li>
+						<li><a href="#">Топ камерофоны</a></li>
+						<li><a href="#">Топ камерофоны</a></li>
+						<li><a href="#">Топ  флагманов</a></li>
+						<li><a class="tabs__more" href="#">Ещё</a></li>
+					</ul>
+					<div class="item-select">
+						<select>
+							<option value="1">Сортировать по  рейтингу</option>
+							<option value="1">Сортировать по  цене</option>
+							<option value="1">Сортировать по  популярности</option>
+						</select>
+					</div>
+				</div>
+				<div class="content__wrap">
+					<div class="content__left">
+						<div class="sidebar-block sidebar-block__main">
+							<div class="sidebar-title">Фильтры</div>
+							<div class="sidebar-subtitle">Цена в руб:</div>
+							<div class="sidebar-price">
+								<div class="polzunok-container">
+									<span>от</span>
+									<input type="text" value="10000"/>
+									<span>до</span>
+									<input type="text"  value="20000"/>
+								</div>
+							</div>
+							<div class="sidebar-type">
+								<div class="sidebar-subtitle">Тип</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked>
+										<span>Adaptive</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked>
+										<span>Chatbot</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+							</div>
+							<div class="sidebar-work">
+								<div class="sidebar-subtitle">Принцип работы</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked>
+										<span>Adaptive</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked>
+										<span>Chatbot</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required">
+										<span>Data ingeston</span>
+									</label>
+								</div>
+							</div>
+							<a href="#" class="btn-main btn-main_page">Все фильтры</a>
+						</div>
+						<div class="sidebar-block sidebar-block__main">
+							<div class="sidebar-title">Статьи</div>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="articles-item">
+								<span class="articles-item__img">
+									<img src="img/articles.png" alt="alt">
+								</span>
+								<span class="articles-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit </span>
+								<span href="#" class="articles-link"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<a href="#" class="btn-main btn-main_page">Все статьи</a>
+						</div>
+					</div>
+					<div class="content__right">
+						<div class="title-section">Наш Топ-10</div>
+						<div class="row row_catalog row_catalog-top">
+							<div class="col-lg-3 col-md-6">
+								<a href="#" class="item-catalog">
+									<span class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</span>
+									<span class="item-catalog__content">
+										<span class="item-catalog__title">Samsung Galaxy S21</span>
+										<span class="item-catalog__descr">Оптимальная цена качество</span>
+										<span class="icon-link"></span>
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<a href="#" class="item-catalog">
+									<span class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</span>
+									<span class="item-catalog__content">
+										<span class="item-catalog__title">Samsung Galaxy S21</span>
+										<span class="item-catalog__descr">Оптимальная цена качество</span>
+										<span class="icon-link"></span>
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<a href="#" class="item-catalog">
+									<span class="item-catalog__image">
+										<img src="img/catalog5.jpg" alt="alt">
+									</span>
+									<span class="item-catalog__content">
+										<span class="item-catalog__title">Samsung Galaxy S21</span>
+										<span class="item-catalog__descr">Оптимальная цена качество</span>
+										<span class="icon-link"></span>
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<a href="#" class="item-top">
+									<img src="img/trophy.svg" alt="alt">
+									<span class="item-top__title">Полный Топ</span>
+								</a>
+							</div>
+						</div>
+						<div class="descr-phone">
+							<div class="descr-phone__slider">
+								<div class="slider-for">
+									<div class="slider-for__item">
+										<img src="img/slder-for.png" alt="alt">
+									</div>
+									<div class="slider-for__item">
+										<img src="img/slder-for.png" alt="alt">
+									</div>
+									<div class="slider-for__item">
+										<img src="img/slder-for.png" alt="alt">
+									</div>
+								</div>
+								<div class="slider-nav">
+									<div class="slider-nav__item">
+										<img src="img/nav-1.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-2.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-3.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-1.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-2.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-3.png" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="descr-phone__item">
+								<div class="descr-phone__title">Samsung Galaxy S21</div>
+								<div class="rating-stars">
+									<ul class="rating rating_5">
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									</ul>
+									<div class="rating-text">Рейтинг <a href="#">785</a></div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est sed cursus fames maecenas hendrerit. Sed ultricies sed et elementum et sed sed. Vitae rutrum euismod non consectetur elit morbi. Ornare integer facilisis massa blandit condimentum dolor porttitor amet vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est sed cursus fames maecenas hendrerit. </p>
+								<div class="rating-phone__wrap">
+									<div class="rating-phone">
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+									</div>
+									<div class="rating-phone">
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="descr-phone__item">
+								<div class="title-min">Спецификации</div>
+								<div class="descr-phone__links">
+									<a href="#">Tipe; Built-in, top control</a>
+									<a href="#">Tipe; Built-in </a>
+									<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+									<a href="#">Tipe; Built-in, top control</a>
+									<a href="#">Tipe; Built-in</a>
+									<a href="#">Lorem ipsum dolor sit amet</a>
+									<a href="#">Consectetur adipis </a>
+									<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+									<a href="#">Lorem ipsum dolor sit amet</a>
+									<a href="#">Consectetur adipis</a>
+								</div>
+							</div>
+						</div>
+						<div class="test-phone">
+							<div class="evaluation">
+								<div class="title-min">Оценка тестов <div class="hint" title="Подсказка"></div></div>
+								<div class="circle" id="circle-1"></div>
+								<div class="evaluation-hint__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nulla quam quidem? Aliquam</div>
+							</div>
+							<div class="test-advantages">
+								<div class="title-min">Преимущества</div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+							</div>
+							<div class="test-advantages dissadvantages">
+								<div class="title-min">Недостатки</div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+							</div>
+							<div class="buy">
+								<div class="title-min">Где купить?</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Amazon</div>
+									<div class="brand-item__price">$328.85</div>
+								</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Walmart</div>
+									<div class="brand-item__price price_purple">$328.85</div>
+								</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Williams</div>
+									<div class="brand-item__price price_green">$328.85</div>
+								</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Walmart</div>
+									<div class="brand-item__price price_pink">$328.85</div>
+								</div>
+							</div>
+						</div>
+						<div class="our-testers">
+							<div class="title-min">Что говорят наши тестеры</div>
+							<div class="row row_testers">
+								<div class="col-lg-4">
+									<div class="tester-review">
+										<div class="tester-review__like"></div>
+										<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim”</p>
+										<div class="tester-review__bottom">
+											<div class="tester-review__img">
+												<img src="img/man.png" alt="alt">
+											</div>
+											<div class="tester-review__text">
+												<p>Wade Warren</p>
+												<span>08.07.21</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="tester-review">
+										<div class="tester-review__like"></div>
+										<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim”</p>
+										<div class="tester-review__bottom">
+											<div class="tester-review__img">
+												<img src="img/man.png" alt="alt">
+											</div>
+											<div class="tester-review__text">
+												<p>Wade Warren</p>
+												<span>08.07.21</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="tester-review">
+										<div class="tester-review__like"></div>
+										<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim”</p>
+										<div class="tester-review__bottom">
+											<div class="tester-review__img">
+												<img src="img/man.png" alt="alt">
+											</div>
+											<div class="tester-review__text">
+												<p>Wade Warren</p>
+												<span>08.07.21</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="descr-phone">
+							<div class="descr-phone__slider">
+								<div class="slider-for">
+									<div class="slider-for__item">
+										<img src="img/slder-for2.jpg" alt="alt">
+									</div>
+									<div class="slider-for__item">
+										<img src="img/slder-for2.jpg" alt="alt">
+									</div>
+									<div class="slider-for__item">
+										<img src="img/slder-for2.jpg" alt="alt">
+									</div>
+								</div>
+								<div class="slider-nav">
+									<div class="slider-nav__item">
+										<img src="img/nav-1.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-2.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-3.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-1.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-2.png" alt="alt">
+									</div>
+									<div class="slider-nav__item">
+										<img src="img/nav-3.png" alt="alt">
+									</div>
+								</div>
+							</div>
+							<div class="descr-phone__item">
+								<div class="descr-phone__title">Samsung Galaxy S21</div>
+								<div class="rating-stars">
+									<ul class="rating rating_5">
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									</ul>
+									<div class="rating-text">Рейтинг <a href="#">785</a></div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est sed cursus fames maecenas hendrerit. Sed ultricies sed et elementum et sed sed. Vitae rutrum euismod non consectetur elit morbi. Ornare integer facilisis massa blandit condimentum dolor porttitor amet vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est sed cursus fames maecenas hendrerit. </p>
+								<div class="rating-phone__wrap">
+									<div class="rating-phone">
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle "></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+									</div>
+									<div class="rating-phone">
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+										<div class="rating-phone__item">
+											<div class="rating-phone__descr">Build Quality:</div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle checked"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-circle unchecked"></i></div></li>
+											</ul>
+											<div href="#" class="rating-numbers">4,1 <span>(<a href="#">75</a>)</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="descr-phone__item">
+								<div class="title-min">Спецификации</div>
+								<div class="descr-phone__links">
+									<a href="#">Tipe; Built-in, top control</a>
+									<a href="#">Tipe; Built-in </a>
+									<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+									<a href="#">Tipe; Built-in, top control</a>
+									<a href="#">Tipe; Built-in</a>
+									<a href="#">Lorem ipsum dolor sit amet</a>
+									<a href="#">Consectetur adipis </a>
+									<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+									<a href="#">Lorem ipsum dolor sit amet</a>
+									<a href="#">Consectetur adipis</a>
+								</div>
+							</div>
+						</div>
+						<div class="test-phone">
+							<div class="evaluation">
+								<div class="title-min">Оценка тестов <div class="hint" title="Подсказка"></div></div>
+								<div class="circle" id="circle-2"></div>
+								<div class="evaluation-hint__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nulla quam quidem? Aliquam</div>
+							</div>
+							<div class="test-advantages">
+								<div class="title-min">Преимущества</div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+							</div>
+							<div class="test-advantages dissadvantages">
+								<div class="title-min">Недостатки</div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+								<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing </div>
+							</div>
+							<div class="buy">
+								<div class="title-min">Где купить?</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Amazon</div>
+									<div class="brand-item__price">$328.85</div>
+								</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Walmart</div>
+									<div class="brand-item__price price_purple">$328.85</div>
+								</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Williams</div>
+									<div class="brand-item__price price_green">$328.85</div>
+								</div>
+								<div class="brand-item">
+									<div class="brand-item__text">Walmart</div>
+									<div class="brand-item__price price_pink">$328.85</div>
+								</div>
+							</div>
+						</div>
+						<div class="our-testers">
+							<div class="title-min">Что говорят наши тестеры</div>
+							<div class="row row_testers">
+								<div class="col-lg-4">
+									<div class="tester-review">
+										<div class="tester-review__like"></div>
+										<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim”</p>
+										<div class="tester-review__bottom">
+											<div class="tester-review__img">
+												<img src="img/man.png" alt="alt">
+											</div>
+											<div class="tester-review__text">
+												<p>Wade Warren</p>
+												<span>08.07.21</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="tester-review">
+										<div class="tester-review__like"></div>
+										<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim”</p>
+										<div class="tester-review__bottom">
+											<div class="tester-review__img">
+												<img src="img/man.png" alt="alt">
+											</div>
+											<div class="tester-review__text">
+												<p>Wade Warren</p>
+												<span>08.07.21</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="tester-review">
+										<div class="tester-review__like"></div>
+										<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim”</p>
+										<div class="tester-review__bottom">
+											<div class="tester-review__img">
+												<img src="img/man.png" alt="alt">
+											</div>
+											<div class="tester-review__text">
+												<p>Wade Warren</p>
+												<span>08.07.21</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="title-section title-section_page">Похожие промокоды и купоны</div>
+						<div class="row row_coupons">
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promotion">
+									<div class="item-coupon__image">
+										<img src="img/coupon1.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% акция</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_promocod">
+									<div class="item-coupon__image">
+										<img src="img/coupon2.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% промокод</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_sale">
+									<div class="item-coupon__image">
+										<img src="img/coupon3.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% распродажа</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="item-coupon item-coupon_discount">
+									<div class="item-coupon__image">
+										<img src="img/coupon4.jpg" alt="alt">
+									</div>
+									<div class="item-coupon__value">-80% скидка</div>
+									<div class="item-coupon__title">Скидка 17%-все новости <br>и акции</div>
+									<a href="#" class="btn-simple">Открыть </a>
+								</div>
+							</div>
+						</div>
+						<div class="title-section title-section_page">Топ мобильных телефонов</div>
+						<div class="top-phones">
+							<div class="top-phones__head">
+								<div class="top-phones__value">Название <div class="arrow-top"></div></div>
+								<div class="top-phones__value">Цена <div class="arrow-top"></div></div>
+								<div class="top-phones__value">Плюсы и минусы <div class="arrow-top"></div></div>
+								<div class="top-phones__value">Результаты тестов <div class="arrow-top"></div></div>
+							</div>
+							<div class="item-unit">
+								<div class="item-unit__content">
+									<div class="item-unit__left">
+										<div class="item-unit__image">
+											<img src="img/top1.jpg" alt="alt">
+											<div class="item-unit__justice"></div>
+										</div>
+										<div class="item-unit__info">
+											<div class="item-unit__title">Samsung Galaxy S21</div>
+											<div class="rating-percent">77%</div>
+											<br>
+											<div class="item-unit__dropdown-title">Результат</div>
+										</div>
+									</div>
+									<div class="item-unit__prices">
+										<p>$473.85</p>
+										<a href="#">Сравнить 8 результатов</a>
+									</div>
+									<div class="item-unit__advantages">
+										<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla </div>
+										<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+									</div>
+									<div class="item-unit__results">
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><a href="#">Фильтр 1</a></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 2</span></div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">4 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 3</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 4</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 5</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-unit">
+								<div class="item-unit__content">
+									<div class="item-unit__left">
+										<div class="item-unit__image">
+											<img src="img/top1.jpg" alt="alt">
+											<div class="item-unit__justice active"></div>
+										</div>
+										<div class="item-unit__info">
+											<div class="item-unit__title">Samsung Galaxy S21</div>
+											<div class="rating-percent">77%</div>
+											<br>
+											<div class="item-unit__dropdown-title">Результат</div>
+										</div>
+									</div>
+									<div class="item-unit__prices">
+										<p>$473.85</p>
+										<a href="#">Сравнить 8 результатов</a>
+									</div>
+									<div class="item-unit__advantages">
+										<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla </div>
+										<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+									</div>
+									<div class="item-unit__results">
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><a href="#">Фильтр 1</a></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 2</span></div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">4 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 3</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 4</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 5</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-unit">
+								<div class="item-unit__content">
+									<div class="item-unit__left">
+										<div class="item-unit__image">
+											<img src="img/top1.jpg" alt="alt">
+											<div class="item-unit__justice"></div>
+										</div>
+										<div class="item-unit__info">
+											<div class="item-unit__title">Samsung Galaxy S21</div>
+											<div class="rating-percent">77%</div>
+											<br>
+											<div class="item-unit__dropdown-title">Результат</div>
+										</div>
+									</div>
+									<div class="item-unit__prices">
+										<p>$473.85</p>
+										<a href="#">Сравнить 8 результатов</a>
+									</div>
+									<div class="item-unit__advantages">
+										<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla </div>
+										<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+									</div>
+									<div class="item-unit__results">
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><a href="#">Фильтр 1</a></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 2</span></div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">4 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 3</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 4</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 5</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-unit">
+								<div class="item-unit__content">
+									<div class="item-unit__left">
+										<div class="item-unit__image">
+											<img src="img/top1.jpg" alt="alt">
+											<div class="item-unit__justice active"></div>
+										</div>
+										<div class="item-unit__info">
+											<div class="item-unit__title">Samsung Galaxy S21</div>
+											<div class="rating-percent">77%</div>
+											<br>
+											<div class="item-unit__dropdown-title">Результат</div>
+										</div>
+									</div>
+									<div class="item-unit__prices">
+										<p>$473.85</p>
+										<a href="#">Сравнить 8 результатов</a>
+									</div>
+									<div class="item-unit__advantages">
+										<div class="item-advantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla </div>
+										<div class="item-advantage item-advantage_disadvantage">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+									</div>
+									<div class="item-unit__results">
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><a href="#">Фильтр 1</a></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 2</span></div>
+											<ul class="rating rating_4">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">4 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 3</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 4</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+										<div class="item-unit__filter">
+											<div class="item-unit__head"><span>Фильтр 5</span></div>
+											<ul class="rating rating_5">
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+												<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											</ul>
+											<div class="rating-result">5 из 5</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="title-section title-section_page">Как выбрать лучший телефон</div>
+						<div class="text-section">
+							<div class="row">
+								<div class="col-lg-8">
+									<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="video-block video-block_page fancybox fancybox.iframee">
+										<img src="img/video2.jpg" alt="alt">
+									</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh tristique nullam consequat aliquam accumsan lorem amet et platea. Facilisi magna malesuada massa at amet vulputate. Convallis sed sed tellus donec egestas odio. Vel vestibulum diam lobortis odio id. Aliquet mi morbi erat in vestibulum. Convallis fermentum pulvinar pellentesque viverra. Eleifend consequat, tincidunt diam, magnis a, ipsum tortor. Sed tellus, tristique nunc sed vestibulum sapien. Pharetra risus vulputate suspendisse a, at. Tortor enim porta pretium in.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh tristique nullam consequat aliquam accumsan lorem amet et platea. Facilisi magna malesuada massa at amet vulputate. Convallis sed sed tellus donec egestas odio. Vel vestibulum diam lobortis odio id. Aliquet mi morbi erat in vestibulum. Convallis fermentum pulvinar pellentesque viverra. Eleifend consequat, tincidunt diam, magnis a, ipsum tortor. Sed tellus, tristique nunc sed vestibulum sapien. Pharetra risus vulputate suspendisse a, at. Tortor enim porta pretium in.</p>
+								</div>
+								<div class="col-lg-4">
+									<div class="title-min">Tips:</div>
+									<ul>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+									</ul>
+									<div class="title-min">Tips:</div>
+									<ol>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+										<li>Shop Around: There are many companies that offer Medigap plans, so seek out multiple </li>
+									</ol>
+								</div>
+							</div>
+						</div>
+						<div class="quiz">
+							<div class="title-section">Онлайн подбор кредита</div>
+							<div class="descr-section">Заполните вопросы для подбора лучшей скидки</div>
+							<div class="quiz-progressbar">
+								<span class="quiz-progressbar__value"></span>
+							</div>
+							<div class="tab-container-quiz">
+								<div class="tab-quiz">
+									<div class="title-block">Ваша кредитная история</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="radio" name="radio1" checked="checked" />
+													<span>Плохая кредитная история</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="radio" name="radio1" />
+													<span>Небыло кредитов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="radio" name="radio1"/>
+													<span>Хорошая кредитная история</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="radio" name="radio1"/>
+													<span>Затрудняюсь ответить</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main btn-main_next">Следующий шаг</button>
+									</div>
+								</div>
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку? 2</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main btn-main_prev">Предыдущий шаг</button>
+										<button class="btn-main btn-main_next">Следующий шаг</button>
+									</div>
+								</div>
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку? 3</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main btn-main_prev">Предыдущий шаг</button>
+										<button class="btn-main btn-main_next">Следующий шаг</button>
+									</div>
+								</div>
+								<div class="tab-quiz">
+									<div class="title-block">На что вы хотите получить скидку? 4</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Купон на первый заказ</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox" checked="checked" />
+													<span>Бесплатная доставка</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Начисление дополнительных баллов</span>
+												</label>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-6">
+											<div class="item-checkbox">
+												<label>
+													<input type="checkbox"/>
+													<span>Скидки на все товары</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="quiz__buttons">
+										<button class="btn-main">Отправить</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reviews-form">
+							<div class="title-section">Оставить отзыв</div>
+							<form>
+								<div class="row">
+									<div class="col-lg-3 col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Ваше имя" required="required">
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-form">
+											<input type="email" placeholder="Ваш e-mail" required="required">
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="item-form">
+											<select>
+												<option value="1">Категория</option>
+												<option value="1">Категория 1</option>
+												<option value="1">Категория 2</option>
+												<option value="1">Категория 3</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="title-input">Ваша оценка</div>
+										<ul class="rating rating_click rating_5">
+											<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+											<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+										</ul>
+									</div>
+									<div class="col-lg-12">
+										<div class="item-form">
+											<textarea placeholder="Ваш отзыв"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="checkbox checkbox_form">
+									<label>
+										<input type="checkbox" checked="checked" required="required" />
+										<span>Даю согласие на обработку персональных данных</span>
+									</label>
+								</div>
+								<button class="btn-main btn-main_block">Оставить озыв</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__wrap">
+						<a href="#" class="logo">
+							<img src="img/logo2.svg" alt="alt">
+						</a>
+						<ul class="footer-nav">
+							<li><a href="#">Private Policy</a></li>
+							<li><a href="#">Cookie Policy</a></li>
+							<li><a href="#">Terms of Use</a></li>
+						</ul>
+						<a href="#" class="btn-main"><span class="btn-main__icon"><img src="img/ic_tg.svg" alt="alt"></span>Наш телеграм канал</a>
+					</div>
+					<div class="copyright">© 2021 Call Recorder for iPhone, Inc</div>
+				</div>
+			</footer>
+
+		</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="libs/jScrollPane-master/script/jquery.jscrollpane.min.js"></script>
+<script src="libs/circles-master/circles.min.js"></script>
+<script src="js/common.js?ver=1.5"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
